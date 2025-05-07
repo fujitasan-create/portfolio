@@ -18,7 +18,7 @@ html{
 
 .header_left h3{
     margin:0;
-    color: #f58220;
+    color: #885a32;
 }
 
 .header_right a{
@@ -27,11 +27,11 @@ html{
 }
 
 .header_right a:hover {
-    color:orange;
+    color:rgb(255, 168, 5);
 }
 
 #headerback{
-    background-color: antiquewhite;
+    background-color: rgb(193, 229, 244);
     padding: 15px;
 }
 
@@ -102,7 +102,7 @@ html{
 
 .Introduce{
     overflow: hidden;
-    background-color: aliceblue;
+    background-color: rgb(211, 232, 250);
 }
 
 .Introduce h2{
@@ -155,12 +155,14 @@ html{
 }
 
 .card{
-    background-color: rgb(186, 201, 228);
+    background-color: rgb(181, 227, 252);
     border-radius: 12px;
     padding: 30px;
     width:300px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 2px solid transparent;
 }
 
 .card h3{
@@ -168,8 +170,14 @@ html{
     text-align: center;
 }
 
+.card:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    border: 2px solid #6666ff;
+}
+
 #ex{
-    color:rgb(248, 124, 67)
+    color:rgb(25, 0, 255)
 }
 
 .mobile-break {
@@ -226,6 +234,6 @@ html{
     text-align: left;
     line-height: 2.0;
     margin-bottom:20px;
-    font-size: 20px;
+    font-size: 25px;
     margin-left: 140px;
 }
